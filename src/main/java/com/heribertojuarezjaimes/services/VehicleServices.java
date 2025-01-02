@@ -18,7 +18,7 @@ public class VehicleServices {
         this.tyres = tyres;
     }
 
-    public Tyres tyres;
+    private Tyres tyres;
 
     public Speakers getSpeakers() {
         return speakers;
@@ -29,7 +29,7 @@ public class VehicleServices {
         this.speakers = speakers;
     }
 
-    public Speakers speakers;
+    private Speakers speakers;
 
     public void playMusic(){
         speakers.makeSound();

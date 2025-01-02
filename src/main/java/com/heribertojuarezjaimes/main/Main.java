@@ -1,7 +1,6 @@
 package com.heribertojuarezjaimes.main;
 
 import com.heribertojuarezjaimes.beans.Person;
-import com.heribertojuarezjaimes.beans.Vehicle;
 import com.heribertojuarezjaimes.config.ProjectConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
