@@ -5,9 +5,8 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan(
-        basePackages = {"com.heribertojuarzjaimes.beans", "com.heribertojuarezjaimes.services", "com.heribertojuarezjaimes.implementation"},
-        basePackageClasses = {com.heribertojuarezjaimes.beans.Person.class, com.heribertojuarezjaimes.beans.Vehicle.class}
-
+        basePackages = {"com.heribertojuarezjaimes.beans", "com.heribertojuarezjaimes.services", "com.heribertojuarezjaimes.implementation"}
 )
+
 public class ProjectConfig {
 }
