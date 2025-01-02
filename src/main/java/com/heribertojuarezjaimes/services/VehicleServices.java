@@ -3,6 +3,7 @@ package com.heribertojuarezjaimes.services;
 import com.heribertojuarezjaimes.interfaces.Speakers;
 import com.heribertojuarezjaimes.interfaces.Tyres;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -24,7 +25,7 @@ public class VehicleServices {
     }
 
     @Autowired
-    public void setSpeakers(Speakers speakers) {
+    public void setSpeakers(@Qualifier("bose") Speakers speakers) {
         this.speakers = speakers;
     }
 
